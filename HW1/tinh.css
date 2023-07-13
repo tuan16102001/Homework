@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.header .header-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 21px;
+    width: 18%;
+}
+
+.header .header-menu{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin-left: 50%;
+}
+
+main .dexuat{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+main .cau1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+main .dexuat .dx{
+    margin-left: 25px;
+}
+main img{
+    max-width: 950px;
+    margin-top: 40px;
+}
+p{
+    text-align: justify;
+    margin-left: 440px;
+    margin-right: 440px;
+    margin-top: 23px;
+}
+button{ 
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid rgb(223, 223, 223);
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 44.5%;
+    width: 175px;
+    height: 56px;
+    background-color: white;
+}
+
+main .cau2{
+    text-align: center;
+    margin-top: 50px;
+}
+main .menu1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+main .menu1 .dx1{
+    margin-left: 25px;
+}
+
+.h3{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    margin-left: 18%;
+    margin-top: 45px;
+}
+.footer{
+    text-align: center;
+    margin-top: 25px;
+}
+footer .anh{
+    margin-top: 25px;
+}
+
