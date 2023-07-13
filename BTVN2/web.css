@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    /* nhớ xét chiều rộng nó mới thuộc vào 2 bên */
+    width: 80%;
+    margin-left: 120px;
+    align-items: center;
+
+}
+
+.img {
+    margin-right: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.para {
+    margin-top: 100px;
+    margin-left: 37%;
+}
+
+.para1 {
+    margin-left: 37%;
+    margin-left: 42%;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+.Title1 {
+    margin-left: 28px;
+}
+
+.logo1 {
+    width: 60%;
+    height: 10%;
+}
+
+img {
+    max-width: 50%;
+    margin-top: 40px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 443px;
+    margin-right: 433px;
+    margin-top: 20px;
+}
+
+p.para2 {
+    margin-top: -1px;
+}
+
+
+.button {
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-left: 43%;
+    width: 164px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border: 2px solid rgb(235, 235, 235);
+    margin-top: 18px;
+
+}
+
+.footer {
+    display: flex;
+    /* background-color: blue; */
+    width: 52%;
+    margin-left: 361px;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer6{
+ display: flex;
+ justify-content: center;
+ list-style-type: none;
+ margin-top: 10px;
+}
