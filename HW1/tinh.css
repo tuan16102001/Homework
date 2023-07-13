@@ -10,6 +10,7 @@
     align-items: center;
     width: 80%;
     margin-left: 10%;
+    margin-top: 50px;
 }
 .header .header-logo{
     display: flex;
@@ -81,11 +82,18 @@ main .menu1 .dx1{
     margin-left: 18%;
     margin-top: 45px;
 }
-.footer{
-    text-align: center;
-    margin-top: 25px;
+.footer .imglogo{
+    display: flex;
+    justify-content: center;
 }
-footer .anh{
-    margin-top: 25px;
+
+.footer .p1{
+    text-align: center;
+}
+
+footer{
+    padding: 50px 0;
+    margin-top: 70px;
+    background-color: #c8c3c3;
 }
 
