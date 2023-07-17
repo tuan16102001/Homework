@@ -26,8 +26,19 @@ header{
     font-size: 33px;
     font-family: fantasy;
 }
-.header .header-menu .boder{
+.boder{
+    position: relative;
 }
+
+.boder::before{
+    content: "";
+    position: absolute;
+    border-bottom: #0b0b0b solid 2px;
+    width: 43px;
+    margin-top: 55px;
+}
+
+
 main .picture{
     display: flex;
     justify-content: center;
@@ -130,10 +141,16 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 50px;
 } 
 
 .footer{
-    padding: 30px 0 30px 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+footer .copyright{
+    margin-top: 70px;
 }
 
 
