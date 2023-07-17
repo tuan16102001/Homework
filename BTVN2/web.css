@@ -12,6 +12,7 @@
     width: 80%;
     margin-left: 120px;
     align-items: center;
+    margin-top: 20px;
 
 }
 
@@ -32,12 +33,11 @@
 
 .para {
     margin-top: 100px;
-    margin-left: 37%;
+    text-align: center;
 }
 
 .para1 {
-    margin-left: 37%;
-    margin-left: 42%;
+    text-align: center;
 }
 
 .Title {
@@ -58,22 +58,28 @@
 
 img {
     max-width: 50%;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
-p {
+
+.thep {
+    width: 30%;
+    margin-left: 35%;
+    text-align: justify;
+}
+/* p {
     text-align: justify;
     margin-left: 443px;
     margin-right: 433px;
     margin-top: 20px;
-}
+} */
 
-p.para2 {
+/* p.para2 {
     margin-top: -1px;
 }
+ */
 
-
-.button {
+/* .button {
     background-color: #ffffff;
     border-radius: 25px;
     margin-left: 43%;
@@ -83,26 +89,49 @@ p.para2 {
     border: 2px solid rgb(235, 235, 235);
     margin-top: 18px;
 
+} */
+
+header {
+    text-align: center;
 }
+
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+button.button {
+    border-radius: 26px;
+    background-color: #fff;
+    padding: 15px 26px;
+}
+
 
 .footer {
     display: flex;
     /* background-color: blue; */
-    width: 52%;
-    margin-left: 361px;
-    margin-top: 15px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
     justify-content: space-between;
 }
 
-.img1{
+
+.pic {
     display: flex;
     justify-content: center;
-    
 }
 
-.footer6{
- display: flex;
- justify-content: center;
- list-style-type: none;
- margin-top: 10px;
+.pic1 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer10{
+    background-color: #FAFAFA;
+    margin-top: 38px;
+    padding-bottom: 40px;
 }
