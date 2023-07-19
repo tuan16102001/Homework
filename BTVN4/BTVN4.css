@@ -36,8 +36,8 @@ header{
     width: 40%;
     align-items: center;
     justify-content: space-evenly;
+    color: #fff;
 }
-
 .main1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -336,6 +336,14 @@ h2.para9 {
     position: relative;
 }
 
+
+
+.pic2{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
 p.po4 {
     position: absolute;
     margin-top: -34px;
@@ -347,37 +355,6 @@ p.po4 {
  
 }
 
-.circle {
-    background-color: rgb(153, 143, 138);
-    opacity: 0.5;
-    clip-path: circle(40%);
-    height: 5em;
-    width: 5em;
-}
-
-
-.circle {
-    position: absolute;
-    margin-left: 97px;
-    margin-top: -150px;
-}
-
-
-.triangle {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    opacity: 0.3;
-    border-width: 16px 0 17px 27px;
-    border-color: transparent transparent transparent #2D2D2D;
-}
-
-.triangle {
-    position: absolute;
-    margin-top: -128px;
-    margin-left: 129px;
-    
-}
 
 .main5 {
     display: grid;

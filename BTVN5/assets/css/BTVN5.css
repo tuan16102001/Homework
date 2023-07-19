@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    width:  100%;
+    height: 100vh;
+}
+.box1 {
+    /* background-color: aqua; */
+    height: 355px;
+}
+
+img.pic {
+    border-radius: 12px 0px 0 12px;
+}
+
+.box2 {
+    background: rgba(0,0,0,0.3);
+    border-radius: 0 12px 12px 0;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: center;
+    min-height: 100vh;
+    /* align-items: center; */
+    text-align: center;
+    align-items: center;
+}
+
+body{
+    background-image: url('/assets/img/hinh3.jpg');
+}
+
+
+input.inputclass {
+    width: 100%;
+    height: 40px;
+    /* border: none; */
+    border: 2px solid #067AFC;
+    border-radius: 25px;
+}
+.inputtext {
+    position: relative;
+    padding: 10px 40px 10px 40px;
+}
+
+.inputtext i {
+    position: absolute;
+    right: 60px;
+    top: 23px;
+}
+
+p.đn {
+    padding: 15px 0 15px 0;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #0000FE;
+    border: none;
+}
+
+.submit{
+    padding: 10px 40px 10px 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin-left: 7.5%;
+    border-bottom: 2px solid #BFBAB4;
+    padding: 10px 0 10px 0;
+}
+
+button.fb1 {
+    background-color: #4966A8;
+}
+
+button.fb1 {
+    background-color: #4966A8;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button.gg1 {
+    background-color: #DA4034;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.mk {
+    color: #127EFC;
+}
+
+button.tw1 {
+    background-color: #34CCFE;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.para{
+    color: #127EFC;
+}
