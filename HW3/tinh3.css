@@ -58,25 +58,29 @@ main {
 .picture .p1 {
     position: absolute;
     color: white;
-    margin-left: 15px;
-    margin-top: -77px;
+    top: 15%;
     font-size: 27px;
+    padding-left: 10px;
 }
 
 .picture .p2 {
     position: absolute;
     color: white;
-    margin-left: 18px;
-    margin-top: -35px;
+    top: 17%;
     font-size: 9px;
+    padding-left: 10px;
 }
 
 .picture2 .p3{
     position: absolute;
     color: white;
-    margin-left: 90px;
-    margin-top: -35px;
     font-size: 15px;
+    top: 27%;
+}
+
+.picture21 {
+    display: flex;
+    justify-content: center;
 }
 
 .main2{
@@ -134,7 +138,7 @@ main {
 .main2 .left .left1 .picture7 .ticket{
     position: absolute;
     background-color: #468EDA;
-    margin-top: -21.5px;
+    top: 91%;
     width: 23%;
     text-align: center;
 }
@@ -142,7 +146,7 @@ main {
 .main2 .left .left1 .picture7 .ticket1{
     position: absolute;
     background-color: #5BC08B;
-    margin-top: -21.5px;
+    top: 91%;
     width: 30%;
     text-align: center;
 }
@@ -160,7 +164,7 @@ main {
 .main2 .left .left2 .picture8 .ticket2{
     position: absolute;
     background-color: #C075B8;
-    margin-top: -22px;
+    top: 72.5%;
     width: 15%;
     text-align: center;
 }
@@ -168,7 +172,7 @@ main {
 .main2 .left .left2 .picture8 .ticket3{
     position: absolute;
     background-color: #E0B172;
-    margin-top: -22px;
+    top: 72.5%;
     width: 20%;
     text-align: center;
 }
@@ -356,7 +360,7 @@ h4{
 
 
 
-.hinh_tron {
+/* .hinh_tron {
     width: 60px;
     height: 60px;
     background-color: #7F7F80;
@@ -380,15 +384,24 @@ h4{
     margin-left: 115px;
     background-color: transparent; 
     opacity: 0.5; 
-}
-.p6{
+} */
+.p6 {
     position: absolute;
     color: white;
-    margin-left: 90px;
-    margin-top: -35px;
+    top: 80%;
     font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-
+img.youtube {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .main4{
     display: grid;
     grid-template-columns: 70% 30%;
